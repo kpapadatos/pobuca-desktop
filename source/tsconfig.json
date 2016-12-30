@@ -1,0 +1,45 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "outDir": "./dist"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "./typings/**/*.ts",
+    "./src/**/*.ts",
+    "./gulpfile.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files": [
+    "./typings/chalk/chalk.d.ts",
+    "./typings/commander/commander.d.ts",
+    "./typings/del/del.d.ts",
+    "./typings/eventemitter2/eventemitter2.d.ts",
+    "./typings/glob/glob.d.ts",
+    "./typings/gulp-jade/gulp-jade.d.ts",
+    "./typings/gulp-jsvalidate/gulp-jsvalidate.d.ts",
+    "./typings/gulp-load-plugins/gulp-load-plugins.d.ts",
+    "./typings/gulp-typescript/gulp-typescript.d.ts",
+    "./typings/gulp/gulp.d.ts",
+    "./typings/inquirer/inquirer.d.ts",
+    "./typings/minimatch/minimatch.d.ts",
+    "./typings/node/node.d.ts",
+    "./typings/nw.js/nw.js.d.ts",
+    "./typings/orchestrator/orchestrator.d.ts",
+    "./typings/q/Q.d.ts",
+    "./typings/rx/rx-lite.d.ts",
+    "./typings/through/through.d.ts",
+    "./src/main.ts",
+    "./gulpfile.ts"
+  ]
+}

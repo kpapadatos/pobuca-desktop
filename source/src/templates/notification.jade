@@ -1,0 +1,13 @@
+html(style="rgba(0,0,0,0)")
+   head
+      link(href="../css/notifications.css" rel="stylesheet")
+      script(src="../lib/jquery.js")
+   body.notification(style="rgba(0,0,0,0)")
+      .content 
+         .img
+         .text
+      script.
+         setTimeout(
+            () => $('.content').css({ animation: 'spawn .5s', opacity: 1 }),
+            300
+         );

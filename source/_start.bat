@@ -1,0 +1,1 @@
+"%~dp0redist\nw\pobuca.exe" %~dp0 --disable-gpu --force-cpu-draw
